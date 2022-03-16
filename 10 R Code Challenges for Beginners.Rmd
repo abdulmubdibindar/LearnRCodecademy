@@ -25,7 +25,8 @@ mat_a
 mat_b
 
 # creating an array of those matrixes
-
+array <- matrix(c(mat_a, mat_b), ncol = 3, nrow = 6)
+array
 ```
 
 
