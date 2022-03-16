@@ -12,6 +12,19 @@ In R, a matrix is a collection of elements of the same data type arranged in a f
 For this challenge, you need to write code in R that'll create an array of two 3x3 matrixes from two given numeric vectors of different lengths. Each matrix will have 3 rows and 3 columns.
 
 ```{r create an array of matrixes}
+# these are two numeric vectors of different lengths
+vec_a <- c(4, 3, 1, 9, 6, 3, 2, 9, 10)
+vec_b <- c(129, 131, 443, 123)
+
+# creating 3x3 matrixes from those numeric vectors
+mat_a <- matrix(vec_a, nrow = 3, ncol = 3)
+mat_b <- matrix(vec_b, nrow = 3, ncol = 3)
+
+# viewing the matrixes
+mat_a
+mat_b
+
+# creating an array of those matrixes
 
 ```
 
