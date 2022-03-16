@@ -41,3 +41,7 @@ a_list <- list("x", sample(c(21:35), size = 100, replace = TRUE))
 a_list
 ```
 
+
+tes 
+
+tes lagi
