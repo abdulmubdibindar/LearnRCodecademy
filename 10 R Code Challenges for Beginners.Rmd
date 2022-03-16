@@ -1,11 +1,20 @@
 ---
-title: "R Notebook"
-output: html_notebook
+title: " 10 R Code Challenges for Beginners "
+output: 
+  html_document: 
+    number_sections: yes
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+# Create an array of matrixes
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+In R, a matrix is a collection of elements of the same data type arranged in a fixed number of rows and columns. A vector is the simplest type of data collection, which consists of a collection of things.
+
+For this challenge, you need to write code in R that'll create an array of two 3x3 matrixes from two given numeric vectors of different lengths. Each matrix will have 3 rows and 3 columns.
+
+```{r create an array of matrixes}
+
+```
+
 
 ```{r}
 plot(cars)
