@@ -43,5 +43,3 @@ a_list
 
 
 tes 
-
-tes lagi
